@@ -1,18 +1,34 @@
-## Getting Started
+# Juego del Ahorcado en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un simple juego del ahorcado implementado en Java. El jugador tiene que adivinar una palabra oculta antes de que se le acaben los intentos. Cada vez que el jugador ingresa una letra, el programa verifica si esa letra está en la palabra oculta y muestra las letras adivinadas hasta el momento. El juego continúa hasta que el jugador adivine correctamente la palabra o se quede sin intentos.
 
-## Folder Structure
+## Requisitos
 
-The workspace contains two folders by default, where:
+- Java Development Kit (JDK) instalado en tu sistema.
+- Un entorno de desarrollo Java, como Eclipse o IntelliJ IDEA, para compilar y ejecutar el código.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Instrucciones de Uso
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clona este repositorio en tu sistema local o descarga el archivo ZIP y extráelo.
+2. Abre tu entorno de desarrollo Java y carga el proyecto.
+3. Compila y ejecuta el archivo `Ahorcado.java`.
+4. Sigue las instrucciones en la consola para jugar.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Cómo Jugar
 
-## Dependency Management
+1. Al comenzar el juego, verás una línea de guiones que representa las letras de la palabra oculta.
+2. Ingresa una letra y presiona Enter.
+3. Si la letra que ingresaste está en la palabra oculta, se mostrará en su posición correspondiente. De lo contrario, perderás un intento.
+4. Continúa ingresando letras hasta adivinar la palabra o hasta quedarte sin intentos.
+5. ¡Diviértete!
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Contribuir
+
+Si quieres contribuir a este proyecto, ¡eres bienvenido! Puedes fork este repositorio, hacer tus cambios y enviar un pull request. Se aprecian las contribuciones que mejoren la funcionalidad del juego, agreguen nuevas características o mejoren la calidad del código.
+
+## Notas
+
+- Este juego solo acepta letras del alfabeto español.
+- La palabra oculta se elige aleatoriamente de un conjunto predefinido de palabras.
+
+
